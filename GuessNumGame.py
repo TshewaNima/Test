@@ -23,4 +23,4 @@ def guess_recursive(attempts_left):
 welcome_message()
 guess_recursive(max_attempts)
 
-print(f"Memory address of Secret Number {secret_number} is: {secret_number}")
+print(f"Memory address of Secret Number {secret_number} is: {id(secret_number)}")
